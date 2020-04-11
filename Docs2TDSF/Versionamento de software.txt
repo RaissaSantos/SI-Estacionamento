@@ -1,0 +1,23 @@
+Versionamento de software:
+Cópia comercial/Cópia mestre/Branch master: é a versão que eu estou empacotando e to mandando para o cliente
+Vou fazer uma cópia chamada branch de manutenção(chamam de Hologogação) e tem testes finais.
+Quando eu for trablahr fontes, código- Mexo na Branch Dev
+Quando eu estiver segura e estiver tudo certo, eu mexo na Branch de Manutenção
+
+Cada um vai ter um clone(cópia). Acabando, eu passo para a Branch Manutenção
+Os pc´s estão na mesa de cada desenvolvedor e ela vai sincronizando com a Branch Manutenção
+Essa forma de organizar não é padrão e não é aconselhável trabalhar em cima da Branch Master e ir atualizando.
+
+Fork--Pegar a master e criar uma cópia para que a master não seja mexida
+
+*A minha master é a minha versão de homologação.
+*Para criar uma nova branch, clicar enm "Branch:master"-->Colocar o nome e dar enter que automaticamente ele já vai criar 
+*Depois de editar o READ.ME,tenho que comitar(colocar uma descrição e se a mesma for maior que o primeiro campo, jogo o resto para lá e logo clico em "Commit Changes".
+
+*Na hora do pull request(TENHO QUE IR NA BRANCH MANUTENCAO) e "Confirm Merge"
+*Para deletar uma branch, clica na mesma guia do "Code" e em "Branchs" e clicar no lixo
+
+NAS AULASSS:
+*NÓS NÃO VAMOS MEXER NA MASTER APENAS NA BRANCH DE MANUTENÇÃO*
+*No GITHUB DESKTOP, para criar uma cópia na minha máquina, basta ir em "File"-->"Clone..."--URL-->pegar o endereço do repositório e colo a URL e depois finalizo clicando no botão "Clone".
+OBS:Só posso clonar uma vez 
